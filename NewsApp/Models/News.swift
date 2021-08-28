@@ -16,12 +16,14 @@ struct Article:Codable {
     let newsTitle:String
     let newsSource:Source
     let newsDescription:String?
+    let url:String?
     
     enum CodingKeys: String ,CodingKey{
         case newsTitle = "title"
         case newsImage = "urlToImage"
         case newsDescription = "description"
         case newsSource = "source"
+        case url = "url"
     }
     
 }

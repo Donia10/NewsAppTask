@@ -37,6 +37,9 @@ class NewsDetailsViewController: UIViewController {
         
     }
     @objc func actionBarButton() {
+        if let url = URL(string: article?.url ?? "") {
+            UIApplication.shared.open(url)
+        }
     }
     
 }

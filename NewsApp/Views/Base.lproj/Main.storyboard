@@ -58,6 +58,9 @@
                                                                                             <state key="normal" image="square.and.arrow.up" catalog="system">
                                                                                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25"/>
                                                                                             </state>
+                                                                                            <connections>
+                                                                                                <action selector="goToUrl:" destination="OnH-fy-iYJ" eventType="touchUpInside" id="SNZ-9h-Wai"/>
+                                                                                            </connections>
                                                                                         </button>
                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Source Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blP-Jx-bkJ">
                                                                                             <rect key="frame" x="28" y="0.0" width="326" height="31"/>

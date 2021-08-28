@@ -34,4 +34,9 @@ class NewsTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
         // Configure the view for the selected state
     }
+    @IBAction func goToUrl(_ sender: Any) {
+        if let url = URL(string: article?.url ?? "") {
+                   UIApplication.shared.open(url)
+               }
+    }
 }
